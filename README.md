@@ -52,7 +52,7 @@
 
 
 
-###android配置
+### android配置
 1. 设置 `android/setting.gradle`
 
     ```
@@ -93,8 +93,8 @@
     }
     ```
 
-###ios配置
-####打开该目录 .../node_modules/react-native-socket-io/ios
+### ios配置
+> 打开该目录 .../node_modules/react-native-socket-io/ios
 ![Mou icon1](/assets/a1.png)
 
    ```
