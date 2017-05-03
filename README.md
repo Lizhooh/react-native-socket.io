@@ -20,6 +20,8 @@
 ## npm install react-native-socket-io
 
 ### 使用实例
+
+    ```js
     var SocketIO = require('react-native-socket-io');
 
     componentDidMount(){
@@ -49,13 +51,13 @@
         // socket.close();
 
     }
-
+    ```
 
 
 ### android配置
 1. 设置 `android/setting.gradle`
 
-    ```
+    ```js
     ...
 	include ':reactnativesocketio'
 	project(':reactnativesocketio').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-socket-io/android/reactnativesocketio')
@@ -64,7 +66,7 @@
 
 2. 设置 `android/app/build.gradle`
 
-    ```
+    ```js
     ...
     dependencies {
         ...
@@ -74,7 +76,7 @@
     
 3. 注册模块 (到 MainApplication.java)
 
-    ```
+    ```js
     import com.example.reactnativesocketio.SocketPackage;  // <--- 导入
 
     public class MainApplication extends Application implements ReactApplication {
@@ -97,7 +99,7 @@
 > 打开该目录 .../node_modules/react-native-socket-io/ios
 ![Mou icon1](/assets/a1.png)
 
-   ```
+   ```js
    ../node_modules/react-native-socket-io/ios/RNSocket/SocketBridge.h
    
    ```
