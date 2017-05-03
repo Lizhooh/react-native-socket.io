@@ -21,7 +21,8 @@
 
 ### 使用实例
 
-    ```js
+```js
+    
     var SocketIO = require('react-native-socket-io');
 
     componentDidMount(){
@@ -29,7 +30,7 @@
         // 配置项
         var socketConfig = {};
         //连接socket
-        var socket = new SocketIO('http://zhg.zhuyousoft.com:2120', socketConfig);
+        var socket = new SocketIO('ws://youurl.com:2120', socketConfig);
 
 
         socket.on('connect', () => {
@@ -51,8 +52,8 @@
         // socket.close();
 
     }
-    ```
 
+```
 
 ### android配置
 1. 设置 `android/setting.gradle`
